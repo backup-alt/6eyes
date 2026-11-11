@@ -1,0 +1,46 @@
+{
+  "name": "6eyes-limitless",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "6eyes - budget-aware, multi-plan model routing (free, go, plus, teams, zen) and codebase graph for OpenCode. Cheap tasks go cheap, hard tasks escalate, and free models catch the overflow so you never run out.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backup-alt/6eyes.git"
+  },
+  "homepage": "https://github.com/backup-alt/6eyes#readme",
+  "bugs": {
+    "url": "https://github.com/backup-alt/6eyes/issues"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "catalog.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "model-routing",
+    "budget",
+    "llm",
+    "coding-agent"
+  ],
+  "peerDependencies": {
+    "@opencode/plugin": "^2.2.7"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.2.7",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+*.tsbuildinfo
+.6eyes/
+graphify-out/
+.DS_Store
+Thumbs.db
